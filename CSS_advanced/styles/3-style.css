@@ -1,16 +1,16 @@
 :root {
-    --primary-color: #d73953;
-    --black-color: #090909;
-    --white-color: #ffffff;
-    --light-gray-color: #f3f3f3;
-    --dark-gray-color: #353535;
-    --text-color: color-black
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
 }
 .section-tagline {
-    color: var(--primary-color);
+    color: var(--color-primary);
 }
 .card-category {
-    color: var(--primary-color);
+    color: var(--color-primary);
 }
 body {
     color: var(--text-color);
