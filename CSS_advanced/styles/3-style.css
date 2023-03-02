@@ -1,0 +1,23 @@
+:root {
+    --primary-color: #d73953;
+    --black-color: #090909;
+    --white-color: #ffffff;
+    --light-gray-color: #f3f3f3;
+    --dark-gray-color: #353535;
+    --text-color: color-black
+}
+.section-tagline {
+    color: var(--primary-color);
+}
+.card-category {
+    color: var(--primary-color);
+}
+body {
+    color: var(--text-color);
+}
+.visually-hidden {
+    display: none;
+}
+a {
+    color: #161616;
+}
