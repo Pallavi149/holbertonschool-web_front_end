@@ -423,11 +423,11 @@ body {
     position: var(--header-logo-position);
 }
 
-.header-logo a:link {
+.header-logo a {
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
-    height: var(--header-logo-link-top);
-    width: var(--header-logo-link-left);
+    top: var(--header-logo-link-top);
+    left: var(--header-logo-link-left);
 }
 .section {
   padding: var(--section-padding);
